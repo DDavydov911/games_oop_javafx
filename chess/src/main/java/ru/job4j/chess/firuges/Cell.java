@@ -36,4 +36,8 @@ public enum Cell {
         }
         return rsl;
     }
+
+    public String toString() {
+        return this.name() + "(" + this.getX() + ", " + this.getY() + ")";
+    }
 }
